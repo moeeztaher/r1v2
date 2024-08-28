@@ -1,0 +1,27 @@
+{
+  "DataTypeProdCapRegistration": {
+    "dataTypeInformation": {
+      "dataTypeId": "DmeTypeIdStruct",
+      "metadata": {
+        "dataCategory": ["string"],
+        "rat": ["string"]
+      },
+      "dataProductionSchema": "object",
+      "dataDeliverySchemas": [
+        "DeliverySchema"
+      ],
+      "dataDeliveryMechanisms": [
+        "DataDeliveryMechanism"
+      ]
+    },
+    "dataRequestEndpoint": {
+      "type": "InterfaceDefinition",
+      "presenceCondition": true
+    },
+    "dataSubscriptionEndpoint": {
+      "type": "InterfaceDefinition",
+      "presenceCondition": true
+    },
+    "dataProducerConstraints": "object"
+  }
+}

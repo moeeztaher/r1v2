@@ -1,0 +1,14 @@
+{
+    "DataAvailabilityNotification": {
+        "dataJobId": {
+        "type": "string",
+        "mandatory": true
+        },
+        "pullDeliveryDetailsHttp": {
+            "dataPullUri": {
+            "type": "Uri",
+            "mandatory": true
+            }
+        }
+    }
+}

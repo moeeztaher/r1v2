@@ -1,0 +1,38 @@
+{
+  "DataJobInfo": {
+    "dataDelivery": "DataDelivery",
+    "dataTypeId": "DmeTypeId",
+    "productionJobDefinition": {
+      "type": "object"
+    },
+    "dataDeliveryMechanism": "DataDeliveryMechanism",
+    "dataDeliverySchemaId": "string",
+    "pullDeliveryDetailsHttp": {
+      "dataPullUri": {
+        "type": "Uri",
+        "mandatory": true
+      }
+    },
+    "dataAvailabilityNotificationUri": {
+      "type": "Uri",
+      "presenceCondition": true
+    },
+    "pushDeliveryDetailsHttp": {
+      "dataPushUri": {
+        "type": "Uri",
+        "mandatory": true
+      }
+    },
+    "streamingConfigurationKafka": {
+      "topicName": "streamingConfiguration",
+      "kafkaBootstrapServers": [
+        {
+          "ServerAddressWithPort": {
+            "hostname": "string",
+            "portAddress": 1234
+          }
+        }
+      ]
+    }
+  }
+}
